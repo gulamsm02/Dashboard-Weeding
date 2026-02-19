@@ -1,3 +1,4 @@
+# Node and NPM
 /vendor/
 node_modules/
 npm-debug.log
@@ -15,6 +16,7 @@ public/hot
 public_html/storage
 public_html/hot
 
+# Laravel and general ignores
 storage/*.key
 .env
 Homestead.yaml
@@ -28,3 +30,14 @@ Homestead.json
 .env.production
 .phpactor.json
 auth.json
+
+# System specific
+*.log
+.DS_Store
+/.fleet
+/.idea
+/.nova
+/.phpunit.cache
+/.vscode
+/.zed
+Thumbs.db
